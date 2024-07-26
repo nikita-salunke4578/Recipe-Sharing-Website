@@ -1,0 +1,527 @@
+@media (max-width: 600px) {
+    .header-section {
+        background-position: center;
+        background-size: cover;
+        padding: 0 1vw;
+    }
+    .menu-icon {
+        display: block; 
+        position: absolute;
+        right:3%;
+        font-size: 1.5rem;
+    }
+    .logo {
+        max-width: 20vw;
+        min-height: auto;
+    }
+    
+    .nav-links{
+        position: absolute;
+        background-color: white;
+        left:-110%;
+        top: 75%;
+        width: 100%;
+        padding-block: 30px;
+        transition: 0.2s ease-in-out;
+        z-index: 11;
+    }
+    .nav-links.active{
+        left:0;
+    }
+   
+    .nav ul{
+        flex-direction: column;
+    }
+    .nav ul li a{
+        font-size:5vw;
+        margin: 100px;
+    }
+    .modal .btn {
+        font-size: 5vw;
+    }
+    .login-btn{
+        position: absolute;
+        right: 10%;
+    }
+    .login-btn input{
+
+        font-size:1rem;
+       
+    }
+    .nav h4{
+        margin-bottom: 60px;
+       
+    }
+    .header-section{
+        min-height: 70vh;
+        max-width: 100vw;
+    }
+    .header-div h1 {
+        font-size: 6vw;
+    }
+    .search{
+        width :25vw;
+        font-size: 2.5vw;
+    }
+    .search-btn {
+        left: 22vw;
+        top:88%;
+        font-size: 2.5vw;
+    }
+    .about-section {
+        flex-direction: column;
+    }
+    .left,
+    .right {
+        width: 100%;
+        height: auto;
+    }
+    .right {
+        padding-top: 5vw;
+        font-size: 4vw;
+    }
+    .right h2{
+        position: absolute;
+        left: 37%;
+        font-size: 1.5rem;
+        top: 72%;
+        
+     }
+     .right p{
+margin-top: 10px;
+        font-size: 3vw;
+        line-height: 4vw;
+        width: 100vw;
+     }
+     .right span{
+        font-size: 3vw;
+     }
+    .category-item {
+        flex-direction: column;
+        align-items: center;
+    }
+    .category-section p{
+        font-size: 4vw;
+    }
+    .category-div {
+        width: 30vw;
+        height: 30vw;
+        margin-bottom: 2vw;
+    }
+    .div-design {
+        width: 30vw;
+        height: 30vw;
+        margin: 5vw;
+       
+    }
+    .heading p{
+        font-size: 1.5rem;
+        line-height: 6vw;
+       
+    }
+    .card-row {
+        flex-direction: column;
+        align-items: center;
+    }
+   
+    .recipe-card-design {
+        width: 50%;
+        height: auto;
+        margin: 2vw 0;
+        padding: 2vw;
+    }
+    .recipe-img{
+        width: 30vw;
+        height: 30vw;
+    }
+    .recipe-title p{
+        margin: 2vw;
+        font-size: 3vw;
+        padding: 1vw;
+    }
+    .view-btn input{
+    
+        font-size: 3vw;
+    }
+    .get-in-touch-title{
+        font-size: 4vw;
+        font-weight: 600;
+        padding-top: 4vw;
+        min-height: 10vw;
+       
+    }
+    .get-in-touch-div{
+        flex-direction: column; 
+    }
+   
+.info{
+    padding-top: 0;
+   text-align: center;
+  
+ }
+
+ .info p{
+    line-height: 3vw;
+    font-size: 3vw;
+ }
+    .contact-header h1 {
+        font-size: 5vw;
+    }
+  
+    .contact-us-form-title p{
+        margin-top: 2vw;
+        font-size: 5vw;
+    }
+    .contact-us-form input,.contact-us-form textarea{
+        margin-top: 2vw;
+        font-size: 3vw;
+        width: 80%;
+    }
+  
+    
+    .contact-us-form input[type="submit"]{
+        padding: 10px;
+        font-size: 4vw;
+       
+    }
+    .footer {
+        height: auto;
+        padding: 10px;
+        
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-col {
+        width: 100%;
+        margin-bottom: 2vw;
+        text-align: center;
+    }
+
+    .footer-col a, .footer-col p {
+        line-height: 4vw;
+        font-size: 4vw;
+    }
+
+    .footer h4 {
+        padding-bottom: 2vw;
+        font-size: 5vw;
+        line-height: 5vw;
+    }
+    .footer p,.footer a{
+        line-height: 6vw;
+    }
+    .subfooter {
+        padding: 3vw;
+        font-size: 3vw;
+        text-align: center;
+    }
+    .recipe_title h1{
+        font-size: 4vw;
+        margin:2vw;
+    }
+    .recipe_title p{
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+    }
+    .recipe_title .btn{
+        font-size: 2.5vw;
+        padding: 0.5vw;
+    }
+    .ingredient{
+        margin-top: 20px;
+        padding: 3vw;
+    }
+    .ingredient h2{
+        font-size: 4vw;
+
+    }
+    .ingredient ul{
+        font-size: 3vw;
+        line-height: 4vw;
+    }
+    .procedure h2{
+        font-size: 4vw;
+
+    }
+    .procedure p{
+        font-size: 3vw;
+        line-height: 4vw;
+    }
+
+}
+@media (min-width: 768px)and (max-width:1024px) {
+    .header-section {
+        background-position: center;
+        background-size: cover;
+        padding: 0 1vw;
+    }
+    .menu-icon {
+        display: block; 
+        position: absolute;
+        right:3%;
+        font-size: 2rem;
+    }
+    .logo {
+        max-width: 20vw;
+        min-height: auto;
+    }
+    
+    .nav-links{
+        position: absolute;
+        background-color: white;
+        left:-110%;
+        top: 75%;
+        width: 100%;
+        padding-block: 30px;
+        transition: 0.2s ease-in-out;
+        z-index: 11;
+    }
+    .nav-links.active{
+        left:0;
+    }
+   
+    .nav ul{
+        flex-direction: column;
+    }
+    .nav ul li a{
+        font-size:5vw;
+        margin: 100px;
+    }
+    .modal .btn {
+        font-size: 5vw;
+    }
+    .modal-header {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .modal-content {
+       
+        width: 100%;
+        max-width: 500px;
+        
+    }
+    .modal input[type="text"],
+.modal input[type="email"],
+.modal input[type="password"] {
+    font-size: 1.5rem;
+}
+    .login-btn{
+        position: absolute;
+        right: 10%;
+    }
+    .login-btn input{
+
+        font-size:1.5rem;
+       
+    }
+    .nav h4{
+        margin-bottom: 60px;
+       
+    }
+    .header-section{
+        min-height: 70vh;
+        max-width: 100vw;
+    }
+    .header-div h1 {
+        font-size: 6vw;
+    }
+    .search{
+        width :25vw;
+        font-size: 2.5vw;
+    }
+    .search-btn {
+        left: 22vw;
+        top:88%;
+        font-size: 2.5vw;
+    }
+    .about-section {
+        flex-direction: column;
+    }
+    .left,
+    .right {
+        width: 100%;
+        height: auto;
+    }
+    .right {
+        padding-top: 5vw;
+        font-size: 8vw;
+    }
+    .right h2{
+        position: absolute;
+        left: 35%;
+        font-size: 4rem;
+        top: 72%;
+        
+     }
+     .right p{
+margin-top: 10px;
+        font-size: 3vw;
+        line-height: 4vw;
+        width: 100vw;
+     }
+     .right span{
+        font-size: 3vw;
+     }
+    .category-item {
+        flex-direction: column;
+        align-items: center;
+    }
+    .category-section p{
+        font-size: 4vw;
+    }
+    .category-div {
+        width: 30vw;
+        height: 30vw;
+        margin-bottom: 2vw;
+    }
+    .div-design {
+        width: 30vw;
+        height: 30vw;
+        margin: 5vw;
+       
+    }
+    .heading p{
+        font-size: 4rem;
+        line-height: 8vw;
+       
+    }
+    .card-row {
+        flex-direction: column;
+        align-items: center;
+    }
+   
+    .recipe-card-design {
+        width: 50%;
+        height: auto;
+        margin: 2vw 0;
+        padding: 2vw;
+    }
+    .recipe-img{
+        width: 30vw;
+        height: 30vw;
+    }
+    .recipe-title p{
+        margin: 2vw;
+        font-size: 3vw;
+        padding: 1vw;
+    }
+    .view-btn input{
+    
+        font-size: 3vw;
+    }
+    .get-in-touch-title{
+        font-size: 4vw;
+        font-weight: 600;
+        padding-top: 4vw;
+        min-height: 10vw;
+       
+    }
+    .get-in-touch-div{
+        flex-direction: column; 
+    }
+   
+.info{
+    padding-top: 0;
+   text-align: center;
+  
+ }
+
+ .info p{
+    line-height: 3vw;
+    font-size: 3vw;
+ }
+    .contact-header h1 {
+        font-size: 5vw;
+    }
+  
+    .contact-us-form-title p{
+        margin-top: 2vw;
+        font-size: 5vw;
+    }
+    .contact-us-form input,.contact-us-form textarea{
+        margin-top: 2vw;
+        font-size: 3vw;
+        width: 80%;
+    }
+  
+    
+    .contact-us-form input[type="submit"]{
+        padding: 10px;
+        font-size: 4vw;
+       
+    }
+    .footer {
+        height: auto;
+        padding: 10px;
+        
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-col {
+        width: 100%;
+        margin-bottom: 2vw;
+        text-align: center;
+    }
+
+    .footer-col a, .footer-col p {
+        line-height: 4vw;
+        font-size: 4vw;
+    }
+
+    .footer h4 {
+        padding-bottom: 2vw;
+        font-size: 5vw;
+        line-height: 5vw;
+    }
+    .footer p,.footer a{
+        line-height: 6vw;
+    }
+    .subfooter {
+        padding: 3vw;
+        font-size: 3vw;
+        text-align: center;
+    }
+    .recipe_title h1{
+        font-size: 4vw;
+        margin:2vw;
+    }
+    .recipe_title p{
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+    }
+    .recipe_title .btn{
+        font-size: 2.5vw;
+        padding: 0.5vw;
+    }
+    .ingredient{
+        margin-top: 20px;
+        padding: 3vw;
+    }
+    .ingredient h2{
+        font-size: 4vw;
+
+    }
+    .ingredient ul{
+        font-size: 3vw;
+        line-height: 4vw;
+    }
+    .procedure h2{
+        font-size: 4vw;
+
+    }
+    .procedure p{
+        font-size: 3vw;
+        line-height: 4vw;
+    }
+
+}
+
+

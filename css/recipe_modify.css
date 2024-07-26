@@ -1,0 +1,87 @@
+.btn-options{
+    background-color:var(--salmon-pink);
+    min-height: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    padding: 2vw;
+}
+.hero-section{
+    background-color: var(--cultured);
+    overflow: hidden;
+}
+.hero-section .heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.hero-section .heading{
+    font-size: var(--fs-1);
+}
+.hero-section .heading input{
+    margin-top: -30px;
+}
+.form{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    flex-direction: column;
+    background-color: var(--white);
+    padding: 2vw;
+    box-shadow:10px 10px 10px 10px  #888888; 
+}
+.form input{
+    display: block;
+    width: 98%;
+    font: inherit;
+  }
+ 
+  .form .btn{
+    border: 2px solid #979797;
+  }
+  @media (max-width: 600px) {
+    .form{
+        width: 100%;   
+    }
+    .hero-section{
+        padding: 2vw;
+    }
+    .form textarea{
+        width: 100%;
+    }
+    .form .btn{
+        padding: 1.5vw;
+      }
+     .hero-section .heading p{
+        font-size: 1.5rem;
+        margin-top: 15px;
+      }
+      .hero-section .heading .btn{
+        font-size: 1rem;
+       
+      }
+  }
+  @media (max-width: 768px) {
+    .form{
+        width: 100%;   
+        font-size: 1.2rem;
+    }
+    .hero-section{
+        padding: 2vw;
+    }
+    .form textarea{
+        width: 100%;
+    }
+    .form .btn{
+        padding: 1.5vw;
+      }
+     .hero-section .heading p{
+        font-size: 2.5rem;
+      }
+      .hero-section .heading .btn{
+        font-size: 1.5rem;
+       margin-right: -10vw;
+      }
+  }

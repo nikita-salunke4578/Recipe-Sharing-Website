@@ -17,7 +17,7 @@ session_start();
 
 <body>
     <div class="container">
-        <div class="header-section" style="background-image: url(recipe_img/header_img.jpeg);background-size: cover;">
+        <div class="header-section" style="background-image: url(header_img.jpeg);background-size: cover;">
 
             <div class="nav">
                 <div class="logo">
@@ -83,7 +83,7 @@ session_start();
             </div>
                    </div>
         <div class="about-section" id="about">
-            <div class="left" style="background-image: url(recipe_img/Bing.png);background-size: cover;"></div>
+            <div class="left" style="background-image: url(Bing.png);background-size: cover;"></div>
             <div class="right">
                 <h2>About Us</h2>
                 <p>
